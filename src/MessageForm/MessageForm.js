@@ -177,7 +177,7 @@ export default class MessageForm extends React.Component {
 
 					<div className="messageForm__block-right">
 						<label className="messageForm__moreInfo-label messageForm__label">
-							Дополнительное информация:
+							Дополнительная информация:
 							<textarea onChange={this.PutDescription} className="messageForm__moreInfo-input messageForm__input"></textarea>
 						</label>
 
