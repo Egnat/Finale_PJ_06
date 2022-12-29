@@ -1,0 +1,53 @@
+.header {
+	display: flex;
+	width: 1280px;
+	height: 102px;
+	padding-top: 33px;
+	background-color: rgba(61, 87, 180, 1);
+}
+
+.header__header-block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 1349p;
+	height: 33px;
+	margin: 0 auto 0 auto;
+}
+
+.header__title {
+	font-family: 'Montserrat';
+	font-size: 28px;
+	color: white;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 500px;
+	height: 33px;
+	margin-left: 120px;
+	font-size: 20px;
+	color: white;
+}
+
+.header__registration-block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 33px;	
+}
+
+.header__registration {
+	margin: 0 28px 0 24px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 21px;
+	cursor: pointer;
+}
+
+.header__link-signUp {
+	margin-left: 33px;
+}

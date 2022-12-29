@@ -1,0 +1,31 @@
+.footer {
+	display: flex;
+	height: 105px;
+	background-color: rgba(61, 87, 180, 1);	
+}
+
+.footer__block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 1280px;
+	margin: 0 auto 0 auto;
+	color: white;
+	font-family: 'Montserrat';	
+}
+
+.footer__title {
+	font-size: 28px;
+}
+
+.footer__items-block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footer__text {
+	margin-left: 26px;
+	font-size: 21px;
+}

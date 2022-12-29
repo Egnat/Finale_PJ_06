@@ -1,0 +1,102 @@
+.messageForm {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1280px; 
+	height: 558px;
+	padding: 30px 60px 30px 60px;
+	margin: 37px auto 0 auto;
+	background-color: rgba(38, 55, 81, 1);
+	color: white;		
+}
+
+.messageForm__title {
+	width: 486px;
+	height: 72px;
+	font-family: 'Play';
+	font-size: 30px;
+	text-align: center;
+}
+
+.messageForm__flex {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+	font-family: 'Monserrat';
+}
+
+.messageForm__block-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 470px;
+	height: 100%;
+}
+
+.messageForm__label {
+	width: 100%;
+	height: 68px;
+	font-size: 20px;
+}
+
+.messageForm__label span {
+	color: red;
+}
+
+.messageForm__input {
+	width: 100%;
+	height: 44px;
+	border-radius: 5px;
+	font-size: 20px;
+	caret-color: black;
+	padding-left: 20px;
+}
+
+.messageForm__block-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 676px;
+	height: 100%;
+	margin-left: 76px;	
+}
+
+.messageForm__btn-send {
+	width: 212px;
+	height: 49px;
+	background-color: rgba(61, 87, 180, 1);
+	color: white;
+	font-size: 20px;
+	align-self: flex-end;
+}
+
+.messageForm__moreInfo-label {
+	height: 200px;
+}
+
+.messageForm__moreInfo-input {
+	height: 190px;
+	padding-top: 10px;
+	resize: none;
+}
+
+.messageForm__cross-close {
+	position: absolute;
+	top: 35px;
+	right: 35px;
+}	
+
+.messageForm__reqStatus-message {
+	font-size: 20px;
+}
+
+.messageForm__message-Ok {
+	color: green;
+}
+
+.messageForm__message-Err {
+	color: red;
+}

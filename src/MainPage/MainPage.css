@@ -1,0 +1,254 @@
+.main-block {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 3728px;
+}
+
+.section-1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 672px;
+	padding-left: 85p;	
+}
+
+.section-1__content-block {
+	display: flex;
+	flex-direction: column;
+	width: 553px;
+	height: 375px;	
+}
+
+.section-1__content-block__description {
+	width: 92%;
+	height: 144px;
+	padding: 55px 24px 58px 24px;
+	margin-left: 21px;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-size: 25px;
+	text-align: center;
+}
+
+.section-1__content-block__title,
+.section-1__content-block__description,
+.section-1__content-block__btn {
+	color: white;
+}
+
+.section-1__content-block__title {
+	margin-bottom: 40px;
+	margin-left: 120px;
+	font-size: 64px;
+}
+
+.section-1__content-block__btn {
+	width: 190px;
+	height: 70px;
+	margin-top: 44px;
+	background-color: rgba(61, 87, 180, 1);
+	font-family: 'Play';
+	font-size: 24px;
+	align-self: center;
+}
+
+.section-1__img {
+	width: 771px;
+	height: 505px;
+	background-image: url('https://www.mag-russia.ru/f/product/20_merida_mountainbikes_ninety_six_gallery_1.jpg');
+	background-size: cover;
+}
+
+
+.section-2 {
+	width: 100%;
+	height: 841px;
+	padding: 120px 86px 115px 86px;
+}
+
+.section-2__content-1 {
+	width: 991px;
+	height: 250px;
+	color: white;
+	list-style-type: none;
+	font-size: 30px;
+}
+
+.section-2__content-1__items {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.section-2__content-1__items::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50px;
+	margin-right: 37px;
+	background-color: #ffe161;	
+}
+
+.section-2__content-2 {
+	width: 570px;
+	height: 223px;
+	border: 7px double #fff;
+	padding-top: 47px;
+	margin: 187px auto 0 397px;
+	background-color: #00f;
+	color: white;
+	font-size: 26px;
+	text-align: center;
+}
+
+.section-3 {
+	width: 100%;
+	height: 881px;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+
+
+.card {
+	width: 394px;
+	height: 421px;
+	border-radius: 21px;
+	padding: 20px 31px 0 31px;
+	color: white;	
+}
+
+.section-3__card-1 {
+	position: absolute;
+	top: 70px;
+	left: 133px;
+	background-color: #ff0000;
+	box-shadow: 0px -10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section-3__card-2 {
+	position: absolute;
+	top: 41px;
+	right: 276px;
+	z-index: 2;
+	background-color: #3bdf19;
+	box-shadow: 0px -10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section-3__card-3 {
+	position: absolute;
+	top: 425px;
+	left: 305px;
+	background-color: #de38ed;
+	box-shadow: 0px -10px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.section-3__card-4 {
+	position: absolute;
+	top: 451px;
+	right: 108px;
+	background-color: rgba(136, 111, 236, 1);
+	box-shadow: 0px -10px 4px 0px rgb(0 0 0 / 25%);
+	z-index: 2;
+}
+
+.card__title {
+	font-size: 96px;
+	text-align: center;
+}
+
+.card__desc {
+	margin-top: 25px;
+	font-family: Pacifico, cursive;
+	font-size: 25px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.section-4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 893px;
+	padding: 139px 63px 171px 85px;
+	margin: 0 auto 0 auto;
+}
+
+.section-4__img {
+	width: 730px;
+	height: 493px;
+	border: 10px double black;
+	margin-top: 136px;
+	background-image: url('https://content.26in.fr/p/news/25383/38976.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #ff0;
+	box-shadow: 0px 0px 6px 9px rgb(0 0 0 / 25%);
+}
+
+.section-4__advantage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 330px;
+	height: 351px;
+	margin-top: 103px;
+	color: #00ffb8;
+    background-color: #639;
+    box-shadow: 4px 3px 8px 2px #000000bf;	
+}
+
+.section-4__advantage_items {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 75px;
+	margin-left: 37px;	
+}
+
+.section-4__advantage__text-block {
+	align-self: flex-end;
+	margin-left: 19px;
+}
+
+.section-4__advantage__text-block__title {
+	font-size: 30px;
+}
+
+.section-4__advantage__text-block__desc {
+	font-size: 20px;
+}
+
+.section-5 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 399px;
+	padding-top: 58px;
+	margin: 0 auto 0 auto;		
+}
+
+.section-5__text {
+	width: 295px;
+	height: 72px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+.section-5__btn {
+	width: 269px;
+	height: 80px;
+	border-radius: 5px;
+	margin-top: 46px;
+	background-color: rgba(61, 87, 180, 1);
+	font-family: 'Play';
+	font-size: 24px;
+	color: white;
+}
