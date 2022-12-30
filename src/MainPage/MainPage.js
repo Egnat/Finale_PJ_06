@@ -17,7 +17,7 @@ function MainPage () {
 				<div className='section-2'>
 					<ul className='text section-2__content-1'>
 						<li className='section-2__content-1__items'>Любите путешествовать по Крыму ? </li>
-						<li className='section-2__content-1__items'>Не хотите путешествовать пешком ?</li>
+						<li className='section-2__content-1__items'>Не хотите путешествовать автостопом ?</li>
 						<li className='section-2__content-1__items'>Хотите путешествовать свободно ?</li>
 					</ul>
 					
