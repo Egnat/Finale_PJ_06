@@ -1,8 +1,8 @@
 body {
 	width: 1280px;
 	height: auto;
-	background-color: #2a3554;
 	background-image: url('../public/img/abstractfirebloom.png');
 	background-position: center;
 	background-size: cover;
+	background-color: #2a3554;
 }
